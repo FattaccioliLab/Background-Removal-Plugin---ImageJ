@@ -51,3 +51,6 @@ If the output preview is satisfactory, you can choose to `Finalize` and save it 
   <img src="/samples/gifs/Finalize.gif">
 </p>     
 
+## Credits
+
+v0.1 : 2022 - 2023 : Lyes LAÏMOUCHE,  Alina NOVIKOVA, Daniel SIMA (Master in [Software Science and Technology (STL)](https://sciences.sorbonne-universite.fr/en/formation-sciences/masters/master-informatique/parcours-stl) at Sorbonne Université, First year project) 
