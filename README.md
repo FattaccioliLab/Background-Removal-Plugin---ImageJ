@@ -13,8 +13,18 @@ ImageJ is a fully java-based software for image processing in fields such as phy
 
 ## Installation tutorial
 ###### Requirement:  [ImageJ (Fiji)](https://imagej.net/software/fiji/downloads) / Apache Maven and Java
+
+### Directly installing the .jar file as plugin in ImageJ
+
 You can get the `.jar` of this plugin from the plugins folder [here](https://sites.imagej.net/FattaccioliLab/). 
-Or from the project folder with Maven :
+
+### From the dedicated Fiji update site
+
+You can add our update site [[here](https://sites.imagej.net/FattaccioliLab/)](https://sites.imagej.net/FattaccioliLab/) to the Fiji Updater, following this tutorial : [https://imagej.net/update-sites/following](https://imagej.net/update-sites/following)
+
+### Using Maven
+
+From the project folder with Maven :
 ```bash
 cd  Background-Removal-Plugin---ImageJ
 ```
