@@ -1,7 +1,8 @@
 
 
 # Background-Removal plugin for ImageJ and ImageJ2 (Fiji) 
-ImageJ is a fully java-based software for image processing in fields such as physics and biology. Our plugin aims to remove the background from a stack of images using the Low Rank + Sparse + Noise method from the article [Greedy Bilateral Sketch, Completion & Smoothing](https://proceedings.mlr.press/v31/zhou13b.html) and inspired by the [Python code of the GreGoDec algorithm](https://github.com/FattaccioliLab/Codes/tree/master/LowRankSparseNoiseDecomposition-GoDec).
+ImageJ is a fully java-based software for image processing in fields such as physics and biology. Our plugin aims to remove the background from a stack of images using the Low Rank + Sparse + Noise method from the article [Greedy Bilateral Sketch, Completion & Smoothing](https://proceedings.mlr.press/v31/zhou13b.html) and inspired by the [Python code of the GreGoDec algorithm](https://github.com/FattaccioliLab/Codes/tree/master/LowRankSparseNoiseDecomposition-GoDec). The original Matlab code from [Tianyi Zhou](https://tianyizhou.github.io/) has been forked by Andrews Sobral [here](https://github.com/andrewssobral/lrslibrary/blob/master/algorithms/rpca/GreGoDec/GreGoDec.m).
+
 * Low Rank => Background matrix
 * Sparse => Moving objects martrix
 * Noise => Disruption and errors matrix
